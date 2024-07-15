@@ -26,7 +26,7 @@ const Login = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    response = login()
+    // response = login()
     setUser(data);
     sessionStorage.setItem('user', JSON.stringify(data));
     navigate("/");
